@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <title>PERCENTAGE</title>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">
+    
+        <div class="container" style="background-color:rgba(250, 205, 195, 0.397) ;border-radius: 150px;">
+            <form onsubmit="return percentage_01()">
+                <div class="form-title">
+                    <h3 style="font-size: X-large;border-radius: 30px;">
+                        PERCENTAGE CALCULATION</h3>
+                </div>
+                <div class="form-container">
+                    <div class="form-links">
+                        <input type="number" name="Marks" id="marks" placeholder="Enter marks">
+                    </div><BR>
+                    <div class="form-links">
+                        <input type="number" name="totalMarks" id="totalMarks" placeholder="Enter Total Marks">
+                    </div>
+                    <div class="form-links">
+                        <label for="result"><B>YOUR PERCENTAGE :</B></label><br>
+                        <input type="text" name="result" id="result"  disabled>
+                    </div>
+                    <div class="form-links">
+                        <label for="grade">YOUR GRADE :</label><br>
+                        <input type="text" name="grade" id="grade"  disabled>
+                    </div><br>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Check">
+                </div>
+            </form>
+        </div>
+    <script src="./parce.js"></script>
+</body>
+</html>
